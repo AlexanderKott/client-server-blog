@@ -10,4 +10,15 @@ https://youtu.be/D-3RaqUjJhE
 https://youtu.be/g0EORLQITHw
 
 Скриншоты:
-<img src="https://github.com/AlexanderKott/PizzaDemoApp/blob/main/1.JPG?raw=true" width="300"/>
+<img src="https://github.com/AlexanderKott/client-server-blog/blob/main/images/Screenshot_1656414777.png?raw=true" width="300"/>
+
+<img src="https://github.com/AlexanderKott/client-server-blog/blob/main/images/Screenshot_1656414805.png?raw=true" width="300"/>
+
+
+<img src="https://github.com/AlexanderKott/client-server-blog/blob/main/images/Screenshot_1656414841.png?raw=true" width="300"/>
+
+
+<img src="https://github.com/AlexanderKott/client-server-blog/blob/main/images/Screenshot_1656414850.png?raw=true" width="300"/>
+
+
+<img src="https://github.com/AlexanderKott/client-server-blog/blob/main/images/Screenshot_1656414878.png?raw=true" width="300"/>
