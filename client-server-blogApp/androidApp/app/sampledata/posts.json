@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "author": "Блоггер Алекс",
+      "authorAvatar": "@sample/posts_avatars",
+      "published": "21 января в 18:36",
+      "content": "Привет, я буду писать вам о разном, прикреплять картинки и делиться новыми видео!",
+      "likedByMe": true,
+      "likes": 1001
+    }
+  ]
+}
+

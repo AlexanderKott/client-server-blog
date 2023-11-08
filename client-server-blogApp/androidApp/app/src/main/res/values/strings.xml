@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name" translatable="false">K-Demo Blog</string>
+    <string name="description_post_author_avatar">Post author avatar</string>
+    <string name="description_post_menu">Post menu</string>
+    <string name="description_post_like">Like</string>
+    <string name="description_post_share">Share</string>
+    <string name="description_post_save">Save</string>
+    <string name="menu_remove">Remove</string>
+    <string name="post_text">Post Text</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_save">Save</string>
+    <string name="error_empty_content">Content can\'t be empty</string>
+    <string name="chooser_share_post">Share post</string>
+    <string name="add_post">Add post</string>
+    <string name="retry_loading">Retry</string>
+    <string name="empty_posts">There are no posts.</string>
+    <string name="error_loading">&#10060; Error loading data</string>
+    <string name="save">Save</string>
+    <string name="google_play_unavailable">Google Api Unavailable</string>
+    <string name="notification_user_liked">User %1$s liked %2$s\'s post</string>
+    <string name="channel_remote_name">Server notifications</string>
+    <string name="channel_remote_description">Notifications from remote server</string>
+    <string name="description_select_photo">Select photo</string>
+    <string name="description_take_photo">Take photo</string>
+    <string name="description_photo">Photo</string>
+    <string name="remove">&#10060; Remove</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="tab_text_1">Users</string>
+    <string name="tab_text_2">Posts</string>
+    <string name="tab_text_3">Events</string>
+    <string name="tab_text_4">About</string>
+    <string name="empty_records">No records</string>
+    <string name="tab_text_0">My page</string>
+    <string name="login_first">To see your page login first</string>
+    <string name="click_refresh">Error occured. Pull the page down to refresh</string>
+    <string name="error_occured">Error occured during data fetching</string>
+    <string name="seeEvents"><u>see events</u></string>
+    <string name="enter_dialog">Authorization</string>
+    <string name="error_dialog_auth1">No internet connection</string>
+    <string name="error_dialog_auth2">Server is unavalable</string>
+    <string name="error_dialog_auth3">Authorization succeeded</string>
+    <string name="error_dialog_auth4">Cannot find such user</string>
+    <string name="error_dialog_auth5">Incorrect password</string>
+    <string name="error_dialog_auth6">Server has returned error (500)</string>
+    <string name="new_post">New post</string>
+    <string name="firstTimeLoading">Server\'s warm up can take more than 30 seconds.</string>
+    <string name="loading">LOADING...</string>
+    <string name="proceed">work offline</string>
+    <string name="attach">Attach:</string>
+    <string name="add_place">Add place:</string>
+    <string name="description_select_place">set a place</string>
+    <string name="no_inet">No internet</string>
+    <string name="server_unavable">Server is unavailable</string>
+    <string name="write_your_post">Write your post</string>
+    <string name="edit_post">Edit post</string>
+    <string name="enter_anything">Enter anything to save</string>
+    <string name="workTill">to</string>
+    <string name="workPosition">Position</string>
+    <string name="companyname">Company</string>
+    <string name="menu_job_edit">edit</string>
+    <string name="new_job">Create New Job</string>
+    <string name="edit_job">Edit Job</string>
+    <string name="time_till">time till</string>
+    <string name="time_from">time from</string>
+    <string name="new_event">New Event</string>
+    <string name="event_required">required options:</string>
+    <string name="see_my_events">edit my events</string>
+    <string name="see_events">Events</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="online">online</string>
+    <string name="offline">offline</string>
+    <string name="enter_anything_event">Enter:\n1) event text \n 2) Event date \n 3) Event type \n 4) Event link</string>
+    <string name="toParticipate">Participate</string>
+    <string name="you_going_to">You going to participate</string>
+    <string name="format">Format: %1$s</string>
+    <string name="organizators">"Organizators: %1$s"</string>
+    <string name="copy_your_link_here">Copy your link here</string>
+    <string name="setAva">add avatar</string>
+    <string name="download">Download</string>
+    <string name="openFile">open file</string>
+    <string name="downloading">downloading...</string>
+    <string name="place">The place</string>
+    <string name="choose_app">Choose application</string>
+    <string name="login_first_action">Please login first</string>
+    <string name="post_soon">Your post will appear soon</string>
+    <string name="event_soon">Your event will appear soon</string>
+    <string name="job_soon">Your job will appear soon</string>
+    <string name="fill_in_all_fileds">Fill in all fields</string>
+    <string name="choose_place">Choose place</string>
+    <string name="pick_point_on_map">Please pick point on the map</string>
+    <string name="about" translatable="false">
+                <u>Demo Blogger Application v.1.0</u>\n
+ Created by Kotikov Alexander\n
+ Icons made by <a href="https://www.flaticon.com/authors/icon-pond" title="Icon Pond">Icon Pond</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        \n\nThis application is to show Retrofit work:\n  app &#171; -- &#187; Heroku
+        \n\n Imagine there are bloggers who uses this application. They create Posts with
+        attached text, images, videos and music.(Create, Edit, Delete). They can create Events also,
+        registered users can participate and click likes. The bloggers can add
+        information about their jobs or projects.
+        \n The application can work offline.
+
+        \n\n Used stack: Coroutines, Retrofit, WorkManager, OkHttp, MVVM, Dagger2/Hilt, Room, Yandex Maps, Glide.
+        \nThe application design inspired by YouTube.
+        \n\n Thanks for reading
+
+    </string>
+    <string name="aboutLink">To see what this application is about, click About tab</string>
+    <string name="WorkFrom">Worked from</string>
+    <string name="type_password">Password</string>
+    <string name="password_again">Password \nagain</string>
+    <string name="login">login</string>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="cancel">cancel</string>
+    <string name="Passwords_do_not_match">Passwords do not match</string>
+</resources>

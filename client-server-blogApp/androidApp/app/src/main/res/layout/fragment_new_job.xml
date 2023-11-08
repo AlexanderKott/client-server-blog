@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/companyNL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company name"
+        app:layout_constraintBottom_toBottomOf="@+id/comp_name"
+        app:layout_constraintEnd_toStartOf="@+id/comp_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/comp_name" />
+
+    <TextView
+        android:id="@+id/positionL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Position"
+        app:layout_constraintBottom_toBottomOf="@+id/position"
+        app:layout_constraintStart_toStartOf="@+id/companyNL"
+        app:layout_constraintTop_toTopOf="@+id/position" />
+
+    <EditText
+        android:id="@+id/comp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/companyNL"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/comp_name"
+        app:layout_constraintTop_toBottomOf="@+id/comp_name" />
+
+    <TextView
+        android:id="@+id/timeFromL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_from"
+        app:layout_constraintBottom_toBottomOf="@+id/setFrom"
+        app:layout_constraintStart_toStartOf="@+id/position"
+        app:layout_constraintTop_toTopOf="@+id/setFrom" />
+
+    <TextView
+        android:id="@+id/timeTillL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_till"
+        app:layout_constraintBottom_toBottomOf="@+id/setTill"
+        app:layout_constraintStart_toStartOf="@+id/timeFromL"
+        app:layout_constraintTop_toTopOf="@+id/setTill" />
+
+    <Button
+        android:id="@+id/setFrom"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="From"
+        app:layout_constraintStart_toStartOf="@+id/positionL"
+        app:layout_constraintTop_toBottomOf="@+id/position" />
+
+    <Button
+        android:id="@+id/setTill"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Till"
+        app:layout_constraintStart_toStartOf="@+id/setFrom"
+        app:layout_constraintTop_toBottomOf="@+id/setFrom" />
+</androidx.constraintlayout.widget.ConstraintLayout>
